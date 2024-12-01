@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio personal</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         /* Aseguramos que el HTML y el body ocupen el 100% de la altura de la página */
         html, body {
@@ -23,7 +21,6 @@
             flex: 1;
         }
 
-        /* El footer se coloca al final de la página */
         footer {
             background-color: #e4e2dd;
             padding: 10px;
@@ -35,7 +32,6 @@
             align-items: center;  /* Centra el contenido verticalmente */
             box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);  /* Sombras opcionales */
         }
-
         footer a {
             margin-left: 10px;
         }
@@ -44,6 +40,13 @@
 
 <body>
     <header>
+        
+        <div class="header-content">
+            <a href="index.html">
+                <img src="images\logo sin fondo.png" alt="Logo personal">
+            </a>
+            <h2>Cynthia Rodriguez</h2>
+        </div>
         <div>
             <nav>
                 <ul>
@@ -57,14 +60,97 @@
                 </ul>
             </nav>
         </div>
-        <div class="header-content">
-            <a href="index.html">
-                <img src="images\logo sin fondo.png" alt="Logo personal">
-            </a>
-            <h2>Cynthia Rodriguez</h2>
-        </div>
     </header>
 
+    <div class="cv_container">
+
+   <div class="lateral">
+
+   <div>
+     <img src="images\about me.png" alt="Cynthia" style="width: 80%; height: auto; margin-left: 80px;">
+   </div>
+   <div>
+    <h2>Cynthia Rodriguez</h2>
+    <div class="w3-container">
+        <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i> Data Analyst & Tester</p>
+        <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i> Montevideo, Uruguay</p>
+        <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i> cynthiar.job@gmail.com</p>
+        <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i> (+598) 93 699 963</p>
+        <hr>
+
+        <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+        <ul>
+            <p>
+                <i class="fa-solid fa-arrow-right"></i> Power BI</p>
+            <p>
+                <i class="fa-solid fa-arrow-right"></i> Looker Studio</p>
+            <p>
+                <i class="fa-solid fa-arrow-right"></i> SQL</p>
+            <p>
+                <i class="fa-solid fa-arrow-right"></i> Google Sheets</p>
+             <p>
+                <i class="fa-solid fa-arrow-right"></i> Excel</p>
+        </ul>
+        
+        <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+        <ul>
+            <p>
+                <i class="fa-solid fa-arrow-right"></i> English</p>
+          <p style="margin-left: 20px;">Nivel intermedio (B1)</p>
+            <p>
+                <i class="fa-solid fa-arrow-right"></i> Portugués</p>
+            <p style="margin-left: 20px;">Nivel intermedio</p>
+        </ul>
+        
+        <br>
+      </div>
+    </div><br>
+   </div>
+
+   <div class="derecho">
+    <div >
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Experiencia laboral</h2>
+        <div>
+            <h5 class="w3-opacity"><b>Becario Administrativo / Universidad del Trabajo</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Oct 2021 - Mar 2023</h6>
+            <p>Implementé un nuevo proceso de control de stock mediante el uso avanzado de Excel, regularizando inventarios desorganizados de años anteriores.</p>
+             <p>Reorganicé la gestión de archivos de la oficina, recopilando datos faltantes, solucionando trámites pendientes de hasta 5 años, y cerrando todos los incidentes relacionados. Esto permitió optimizar la eficiencia y reducir errores administrativos.</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Líder de proyecto / Panadería Qué Pancito</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2019 - Abr 2020</h6>
+            <p>Lideré un equipo de 7 personas, desarrollando habilidades de comunicación, capacitación y coordinación de equipos, asegurando el cumplimiento de objetivos. </p>
+            <p>Aumenté las ventas en 3 veces en un año, gracias al uso de herramientas analíticas como Excel, la planificación estratégica y el pensamiento crítico.</p>
+            <hr>
+          </div>
+    </div>
+
+    <div>
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Educación</h2>
+        <div class="w3-container">
+            <h5 class="w3-opacity"><b>Licenciatura en Estadística / Universidad de la República</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>En curso</h6>
+            <p>Logré una actuación destacada en las áreas de estadística descriptiva, siendo mi proyecto uno de los elegidos para participar de las Jornadas Académicas del Departamento de Métodos Cuantitativos de la Facultad.</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Data Analyst / Guayerd & IBM</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Ago 2024 - Nov 2024</h6>
+            <p>Participé en un proyecto para la ONG Potenciar Solidario, donde diseñé y presenté visualizaciones utilizando herramientas como Excel, Google Sheets, SQL Workbench y Looker Studio, facilitando la toma de decisiones informadas basadas en datos.</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Tester / Jóvenes a Programar</b></h5>
+            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2024 - Dic 2024</h6>
+            <p>Lideré un proyecto de testing de software, coordinando un equipo para garantizar la calidad del producto mediante pruebas funcionales y de regresión. Logré fomentar una excelente sinergia laboral utilizando herramientas de gestión como JIRA y ClickUp.</p><br>
+          </div>
+    </div>
+   </div>
+
+   </div>
+
+</div>
     <footer>
         <p>&copy; 2024 Cynthia Rodriguez</p>
         <a href="https://www.linkedin.com/in/cynthia-rose-rodriguez-duarte/" style="margin-left: 10px;">
@@ -75,58 +161,7 @@
         </a>
     </footer>
 
-<main style="padding-top: 100px;">
-    <div class="column">
-        <h1>Análisis de Potenciar Solidario</h1>
-        <p>En el marco del curso Data Analytics ofrecido por Guayerd & IBM, realicé una análisis descriptivo para la ONG Potenciar Solidario. Se utilizaron herramientas de Google, como Sheets y Looker Studio, para el procesamiento de datos y la creación de un Dashboard. 
-           <br> El presente trabajo contiene indicadores claves para el tipo de organización, como cantidad de donaciones recibidas, cantidad de donantes registrados, tota de ingresos y egresos, entre otras. El objetivo era crear una herramienta de apoyo para la toma de decisiones informadas. <br>
-           <p>Con respecto a la usabilidad del dashboard, se destacan :</p>
-           <ul>
-                <p>- Los filtros de Año, Mes o Trimestre para que el usuario pueda fijar la información por períodos de tiempo</p>
-                <p>- Botón de cambio de tema predeterminado. Funcionalidad que pone enfoque en la experiencia de usuario, ya que éste puede elegir entre tema claro u oscuro.</p>
-                <p>- Botón para restablecer los filtros. De esta manera el usuario no debe hacerlo manualmente en cada uno.</p>
-                <p>- Botones de navegación. Permite al usuario la navegación entre páginas.</p>
-                <p>- Gráficos de varias capas. Agrega interactividad a las visualizaciones. El usuario puede pasar de una gráfica anual a una mensual sin necesidad de un segmentador particular.</p>
-           </ul>
-    </div>
 
-    <div class="column">
-        <div id="carouselExampleIndicators" class="carousel slide custom-carousel" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images\Captura de pantalla 2024-11-22 181845.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="images\Captura de pantalla 2024-11-22 181906.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="images\Captura de pantalla 2024-11-22 181925.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="images\Captura de pantalla 2024-11-22 181943.png" class="d-block w-100" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Siguiente</span>
-            </button>
-        </div>
-        <div style="text-align: center; margin-top: 20px;">
-            <a href="https://lookerstudio.google.com/u/0/reporting/c446b0f8-6a2f-4357-9931-c42c37d0f8d7/page/p_wqdnj7zfld">
-                <button type="button">Ver en Looker Studio</button> </a>
-        </div>
-    </div>
-</main>
 
     <script>
         // Seleccionar el header
