@@ -15,19 +15,24 @@ header {
     box-shadow: none; /* Sin sombra por defecto */
   transition: box-shadow 0.3s ease; /* Suaviza el cambio de sombra */
   z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Centra verticalmente */
 }
 
 
 .header-content {
     display: flex;
-    align-items: center;
-    justify-content: left;
-    gap: 1em;
+    float: left;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
 }
 
 header img {
     max-width: 70px;
     margin-top: 10px;
+
 }
 
 
@@ -46,14 +51,11 @@ footer .social-links a {
 
 
 header ul {
-    list-style: none;
-    display: inline;
-    flex-direction: row;
-    position: right;
-    align-items: center;
-    float: right;
-    gap: 1em;
-    padding-top: 10px;
+  list-style: none;
+  display: flex;
+  gap: 15px; /* Espaciado entre los enlaces */
+  margin: 0;
+  padding: 0;
 }
 
 li a {
