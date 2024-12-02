@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio personal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        
+        /* Aseguramos que el HTML y el body ocupen el 100% de la altura de la página */
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* El contenido principal ocupará el espacio disponible */
+        .content {
+            flex: 1;
+        }
+
+        /* El footer se coloca al final de la página */
+        footer {
+            background-color: #e4e2dd;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;  /* Distribuye el contenido a los lados */
+            align-items: center;  /* Centra el contenido verticalmente */
+            box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);  /* Sombras opcionales */
+        }
+
+        footer a {
+            margin-left: 10px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <a href="index.html">
+                <img src="images\logo sin fondo.png" alt="Logo personal">
+            </a>
+            <div style="margin-top: 20px;">
+                <h2>Cynthia Rodriguez</h2>
+            </div>
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">SOBRE MI</a> </li>
+                    <li><a href="projects.html">PROYECTOS</a></li>
+                    <li><a href="contact.html">CONTACTO</a></li>
+                    <a href="resume2.html">
+                        <button type="button">RESUME</button>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main style="padding-top: 150px;">
+        <div style="padding-top: 30px;">
+            <h1>Proceso de Testing del sitio web Veterinaria Guau Guau</h1>
+            <p>En el marco del programa de Jóvenes a Programar ofrecido por Ceibal, realicé un testeo sobre el sitio web de una empresa ficticia. Se utilizaron herramientas de Google, como Drive, ClickUp y JIRA para la gestión del proyecto y de las incidencias. Para documentar la ejecución de las pruebas se utilizó la extensión de JIRA, Zephyr.
+               <br> El trabajo se centró en las principales secciones del sitio. Estas son el login, el registro de cliente, registro de mascota, registro de vacunas y dashboard.<br>
+               <p>Entre las pruebas realizadas se destacan :</p>
+               <ul>
+                    <p>- <strong>Pruebas de validación de datos:</strong>  El objetivo fue verificar que los datos ingresados cumplen con los requisitos especificados (como formato de correos electrónicos, contraseñas, etc).</p>
+                    <p>- <strong>Técnicas de valores límites:</strong>  Se probaron los valores límites para cada campo en los distintos formularios.</p>
+                    <p>- <strong>Pruebas de enfoque negativo:</strong> Se sometió a las funcionalidades a escenarios de prueba negativos, ingresando registros con datos incorrectos para evaluar la resistencia a errores de usuario.</p>
+                    <p>- <strong>Pruebas de enfoque positivo:</strong> Se realizaron pruebas para verificar que los distintos formularios funcionaran correctamente bajo condiciones normales, validando que los usuarios pudieran realizar acciones sin problemas.</p>
+                    <p>- <strong>Pruebas de compatibilidad:</strong> Se realizaron pruebas en dispositivos diferentes para verificar que la sección funcione tanto en PC como en teléfono móvil. Además, se aplicaron pruebas en diferentes navegadores.</p>
+                    <p>- <strong>Pruebas de accesibilidad:</strong> Se aplicaron distintas pruebas que verifican el cumplimiento de las normas WCAG que definen la accesibilidad de un sitio web. Fueron tomados en cuenta los cuatro principios: Perceptible, Operable, Adaptable y Robusto.</p>
+                    <p>- <strong>Pruebas de usabilidad:</strong> Se exploraron las distintas Secciones desde el punto de vista del usuario tomando como base la norma ISO 25010.</p>
+                    <p>- <strong>Pruebas exploratorias:</strong> Se exploraron las distintas secciones para identificar posibles problemas y escenarios no documentados. Esto ayudó a descubrir áreas de mejora y a abordar situaciones inesperadas.</p>
+                    <p>- <strong>Pruebas de confirmación:</strong> Se hizo trabajo de retesting para verificar que las incidencias reportadas fueron efectivamente solucionadas.</p>
+                    <p>- <strong>Pruebas de regresión:</strong> Se realizaron pruebas de regresión para verificar que las soluciones aplicadas por el equipo de desarrollo no hayan provocado nuevas incidencias.</p>
+               </ul>
+        </div>
+    
+        <div style="margin-top: 5%;">
+            <div id="carouselExampleIndicators" class="carousel slide custom-carousel" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images\Captura de pantalla 2024-12-02 101845.png" class="d-block w-100" alt="imagen1 del proyecto">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images\Captura de pantalla 2024-12-02 111714.png" class="d-block w-100" alt="imagen2 del proyecto">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images\Captura de pantalla 2024-12-02 111812.png" class="d-block w-100" alt="imagen3 del proyecto">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images\sugerenciaMER.drawio (1).png" class="d-block w-100" alt="imagen4 del proyecto">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+        <div style="text-align: center; margin-bottom: 10%; padding-top: 5% ;">
+            <a href="https://github.com/CynthiaDataAndTesting">
+                <button type="button">Ver en GitHub</button> </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cynthia Rodriguez</p>
+        <a href="https://www.linkedin.com/in/cynthia-rose-rodriguez-duarte/" style="margin-left: 10px;">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABE0lEQVR4nO2WPUoEQRCFn0YmCsvmBoLgATQzMJIVzc28xVS10cR6BL2DyOyrCUw00FwEE8HAH7yCosLI6DJjT7IsWx1pw4Omqvt9dFVDN6Dchtgz1Cpf8QliW/ieuJvbj4SPSGauI3UCV9gvVhDYg9ihP6A2b0Y1A+GtLyCc9FsA6v5cOJeIB615uQ7hh3cPKohdQ3kG5XuKJk8o3kCNEF5C+DoekNlOpwdvo9xeE8vLBajdIbPVaG12Og/hsQPgfA6BS9G63zevezEmBowbwXanB4RyDWoPUPuE8ijKZcPl6QHCIq51sdjC2XMA2H0MGG40uTyf9TjBS7QvlJvxvn+A/N0SaQIh+aNffy1SQGrzwMEXSiG0cNbBh4IAAAAASUVORK5CYII=" alt="external-linkedin-in-logo-used-for-professional-networking-logo-color-tal-revivo">            </a>
+        <a href="mailto:cynthiar.job@gmail.com" style="margin-left: 10px;">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAC5UlEQVR4nO2VzU/aYADG+Yek3kC+RRQVrJOAXkjERA5ylTsJIfEwb0Y9muzgkUQTY7a5RbNszm1EBClUdAwJMr7BUryQPEtfKMNuiPftTZ6kSdvf7+n7tm9lsv9j0Mhsbb1MeTytlMeDaiiEh4eHZ6XZbP41lbMzsHY7WJutlV5b88u+u92tpMOBpN2Oa4cDP3d30eT5voCmJDzPt9No4G5nB4xGg5hCgUuFAnGLpSVLrq6C7QiSNhuuXrzArc+HRqn0bEGjWETK6wWjUiGmVBJ4RKlEyOmELD42BsblQtzpJHB2dhYsTePG5UIlHB4Ir0UiuJqfB6NWgxkZIe0jRiM+zc3h9dBQWyDkgqaR8HrbgpkZsFYrERaCwb6C/N4eEiYTmRaxfWxpCUdqNd7I5XjbFRiNiI+OopDPI7G5iThNg7VYwE5Pg52cxG0gAK5c/t28WkVmfR2MTgdGqyXtL1UqJPx+FPN5Aj+Sy/FOLn8s4DgOxWIRycNDMAsLYKemkDCbkZiYwLXbjXoyiXoqRY4Zvb4t0GhwaTbjx8EBSqUSiQg/JoIOXBSIktT5OZiVla4gPj5Opi5htSIuwoX2Lhey0WgXLuQ9ReGYonDySGAwdAWiJJNOI7mxAcZsJutErjUYSPuYXo+rQACFu7suuFwuk4jwD0TQaS8VCBFuymazuNnfR4ym29fp9YiazUgFg6SEFF6pVHBCUQT+sSvotJIKREkul0MmEkFseRnM4iKy4XBfuBACpyicPkfA9UhymQzy2eyT8Gq12oV/JoIO/CkBx3HkxkKh8AdcBIvwWq2GU4rCmVyOLxTVI9Dp+sL5zn5Tr9cHwoWI8G+DBI1Gg4B7NzVBIsIFqBQunP/agYcEQfeD6REI4L67Jt+WCFAxvfD7+/s2fHgYYfIENN2SCp6C8xKJFC5EhEdMJsjiPp8/arW2LrTaR/P5nJRKJbLw4uKLL4Aw/+cmE9Lb268G/vFk//z4BUOeZa7U1MaVAAAAAElFTkSuQmCC" alt="external-Gmail-logos-and-brands-those-icons-flat-those-icons">        </a>
+        <a href="https://github.com/CynthiaDataAndTesting" style="margin-left: 10px;">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAACH0lEQVR4nLXVv8t5URwHcP8J14BBYlIGPxZ8mQwsrEhJBoP4KrIRhc2IRSyslMEgBmXwIz/ulec7kEkZkPp8O7fuyY/nuvc+9Xzq1L3R+9U595zPEUmlUjtBEP8IggA+Q6/X8xo6ne6uVqsTIolE8sU3nBAAMIhISDghEECDE5DL5RCNRqHdbkO/34dmswnlchmCwSAYjcafAzKZDGq1GpAk+TQe63g8Qjab/Qh9C6Af5vP5Wzj5AjA1Go3AbrfzA1QqFSyXy2/DSRYA1WKxALPZzA0MBgMc5vP5IJPJwGq1ot+n0ykMh0PY7Xb0cyQSgUAggBH0fT4CHo8HKIrCgFKp5NxFaGmYut/v4Ha72YFut4vDEWQwGDgBh8MBt9sNI5VKhR1Yr9cYQBjfc9BoNJ6+BSvwuDy5XI43kEwmMXA6nfgB+XyeN5BKpTCAlosX0Ol0eAP1eh0D+/2eHZhMJhjYbrdgtVo5AafTCefzGQO9Xo8dKBQKdPhms8FQsVgErVb7BthsNkin03A4HJ4OXCKRYAdQ/2HCw+EwfqYoij6lDOByueg9/1rovyaT6fNJRsEoEPUii8UCrVYLSqXS2wzQEj7W9XoFv9/Pr9mhHYSQ8XhMb8FQKPQGzGYzHH65XCAWiwlr12gmzHdAze8VQDNEhfqU1+v92YWjUCjo5alWq28AmmU8Hue8dH7/ypT89qUvFov/CEGEhGs0mr//Afxpw7K9rW2uAAAAAElFTkSuQmCC" alt="external-github-community-for-software-building-and-testing-online-logo-shadow-tal-revivo">
+        </a>
+        </footer>
+    <script>
+        // Seleccionar el header
+        const header = document.querySelector('header');
+    
+        // Agregar un listener para el evento de scroll
+        window.addEventListener('scroll', () => {
+          if (window.scrollY > 10) {
+            header.style.boxShadow = '0 8px 15px rgba(0, 0, 0, 0.4)';
+          } else {
+            header.style.boxShadow = 'none';
+          }
+        });
+      </script>
+
+</body>
+
+</html>

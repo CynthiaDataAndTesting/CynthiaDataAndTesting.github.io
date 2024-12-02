@@ -26,6 +26,7 @@ header {
     margin: 0;
     padding: 0;
     gap: 15px;
+    font-family: Arial, sans-serif;
 }
 
 header img {
@@ -193,7 +194,7 @@ textarea {
   .custom-carousel {
     width: 80%; /* Ajusta el ancho a un 80% del contenedor */
     max-width: 1200px; /* O establece un ancho máximo fijo */
-    height: 500px; /* Cambia la altura del carrusel */
+    height: 650px; /* Cambia la altura del carrusel */
     margin: 0 auto; /* Centrar el carrusel en la página */
 }
 
@@ -264,3 +265,55 @@ img {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+#lastprojects {
+  padding-top: 30px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.column3 {
+  float: left;
+  width: 40%;
+  padding: 20px;
+  position: relative;
+}
+
+.column3:hover .image {
+  opacity: 0.3;
+}
+
+.column3:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.icono {
+  transition: width 5s;
+}
+
+.icono:hover {
+  width: 150px;
+}
