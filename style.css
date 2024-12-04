@@ -241,6 +241,10 @@ img {
   .menu-toggle {
     display: block;
 }
+
+.header ul.active {
+  display: flex;
+}
 }
 
 .menu-toggle {
