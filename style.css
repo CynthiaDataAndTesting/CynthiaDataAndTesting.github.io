@@ -310,6 +310,33 @@ img {
   padding-top: 30px;
 }
 
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.icono {
+  transition: width 5s;
+}
+
+.icono:hover {
+  width: 150px;
+}
+
+
+
 
 @media screen and (max-width: 768px) {
   /* Estilos para pantallas pequeñas */
@@ -357,31 +384,6 @@ img {
 
 #enviar-btn {
   padding-top: 20px;
-}
-
-.image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-
-
-.text {
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
-
-.icono {
-  transition: width 5s;
-}
-
-.icono:hover {
-  width: 150px;
 }
 
 
