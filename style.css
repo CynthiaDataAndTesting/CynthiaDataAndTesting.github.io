@@ -317,3 +317,20 @@ img {
 .icono:hover {
   width: 150px;
 }
+
+.trabajo {
+  width: 80%;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  gap: 20px;
+}
+
+.cartel {
+  background-color: lightgray;
+  height: fit-content;
+  width: auto;
+  border-radius: 10px;
+}
