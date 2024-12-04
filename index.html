@@ -51,11 +51,8 @@
             <div style="margin-top: 20px;">
                 <h2>Cynthia Rodriguez</h2>
             </div>
-            <button class="menu-toggle" aria-label="Abrir menú">
-                ☰
-            </button>
         </div>
-        <div>
+        <div id="menu" style="display: flex;">
             <nav>
                 <ul>
                     <li><a href="index.html">HOME</a></li>
@@ -186,7 +183,7 @@
 
       <script>
         const menuToggle = document.querySelector(".menu-toggle");
-const navLinks = document.querySelector(".header ul");
+const navLinks = document.querySelector(".ul");
 
 menuToggle.addEventListener("click", () => {
     navLinks.classList.toggle("active");
